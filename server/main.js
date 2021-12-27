@@ -7,5 +7,5 @@ import {SyncedCron} from 'meteor/littledata:synced-cron';
 
 
 Meteor.startup(() => {
-  //SyncedCron.start();
+  SyncedCron.start();
 });

@@ -1,9 +1,9 @@
 import assert from "assert";
 
-describe("near-view", function () {
+describe("near-staking", function () {
   it("package.json has correct name", async function () {
     const { name } = await import("../package.json");
-    assert.strictEqual(name, "near-view");
+    assert.strictEqual(name, "near-staking");
   });
 
   if (Meteor.isClient) {
